@@ -1,0 +1,55 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "ItemA",
+      "symbol": "var_itema"
+    },
+    {
+      "id": "1",
+      "name": "ItemB",
+      "symbol": "var_itemb"
+    },
+    {
+      "id": "2",
+      "name": "ItemC",
+      "symbol": "var_itemc"
+    },
+    {
+      "id": "3",
+      "name": "ItemComparer",
+      "symbol": "var_itemcomparer"
+    },
+    {
+      "id": "4",
+      "name": "Item Interaction Number",
+      "symbol": "var_item_interaction_number"
+    },
+    {
+      "id": "5",
+      "name": "Overworld 1",
+      "symbol": "var_overworld_1"
+    },
+    {
+      "id": "6",
+      "name": "Overworld 2",
+      "symbol": "var_overworld_2"
+    },
+    {
+      "id": "7",
+      "name": "Overworld 3",
+      "symbol": "var_overworld_3"
+    },
+    {
+      "id": "8",
+      "name": "Overworld 4",
+      "symbol": "var_overworld_4"
+    },
+    {
+      "id": "9",
+      "name": "Item A Refined",
+      "symbol": "var_item_a_refined"
+    }
+  ]
+}

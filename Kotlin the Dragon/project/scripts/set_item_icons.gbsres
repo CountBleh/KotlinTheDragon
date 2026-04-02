@@ -1,0 +1,182 @@
+{
+  "_resourceType": "script",
+  "id": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+  "name": "Set Item Icons",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "ee19ffef-4327-4202-8059-c8898246c4fe"
+            },
+            "id": "5f2dd7fb-763a-4263-9360-81143cd097a9"
+          }
+        ],
+        "false": []
+      },
+      "id": "8908c39f-fb83-4efd-9f8c-5b1cfa8e127b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "2bb6d1df-e748-4bcb-9d7a-93d20aa4d891"
+            },
+            "id": "8a5d0ac8-a8a2-44d6-b5d5-c35e3cda6f2a"
+          }
+        ],
+        "false": []
+      },
+      "id": "56128d47-e868-44ad-86df-be75c57fd29d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "91807d13-cdd6-40ec-8239-d4056c366004"
+            },
+            "id": "db0b84b8-6c55-4d35-b521-ed798caba806"
+          }
+        ],
+        "false": []
+      },
+      "id": "ff5d10bd-148f-4ab8-be1c-f94a3e649fb6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "6ac708c3-3360-49f9-8ccb-eb688a7a9615"
+            },
+            "id": "ecc68881-1a50-40fe-a89c-4099f5a4e37c"
+          }
+        ],
+        "false": []
+      },
+      "id": "e9c87020-003c-4f8e-b0b9-80b1b4c41fa7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "a7dea158-09de-4ad8-aaa2-4dd62c60a97f"
+            },
+            "id": "45ccfbac-33a6-428c-a9a3-18fe0ce02cde"
+          }
+        ],
+        "false": []
+      },
+      "id": "fdb78597-865e-4106-a47f-40c4046265a0"
+    }
+  ]
+}

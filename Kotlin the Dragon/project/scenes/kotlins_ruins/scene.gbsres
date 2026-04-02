@@ -1,0 +1,121 @@
+{
+  "_resourceType": "scene",
+  "id": "0f38f70e-23c8-4036-8327-1b45860c55c4",
+  "_index": 1,
+  "name": "Kotlin's Ruins",
+  "backgroundId": "a694b130-a82c-4b2d-aa55-95406639eac6",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "005a0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 376,
+  "y": 56,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 123
+        }
+      },
+      "id": "876198a7-e557-4177-a6c0-c363f21adea2"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1a1c249a-4fce-4fb7-b320-0891fbf0d833",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "9"
+        }
+      },
+      "id": "cfb13b15-bb09-40f9-978c-40e8af0b13b7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+        "$actor[0]$": "b622a7b6-54a9-48df-a3e3-91da5574fa8f",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "9"
+        }
+      },
+      "id": "e5ae9886-71f8-4bed-8f78-5d10f73f180a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$actor[0]$": "776a88bc-f9a5-4c39-b8ef-d5a95cc4b0c3",
+        "__collapse": false
+      },
+      "id": "3d820cd7-29f2-4c58-bb19-1514d529d879"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "$actor[0]$": "76d392ee-07e6-43f9-a340-599f41f06461",
+        "__collapse": false
+      },
+      "id": "44f21723-2ffd-41a7-9ed6-35791d8c38ff"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "$09$",
+          "$01$",
+          "$02$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c8861c44-7e9d-4d67-8ba3-f57e1f75a599"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
