@@ -1,0 +1,157 @@
+{
+  "_resourceType": "script",
+  "id": "ddc00058-dafb-47b7-a9cd-ce92f9630614",
+  "name": "Fire Damage",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Health"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "property",
+            "target": "0",
+            "property": "frame"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "db05ab18-348c-4573-89cc-a6d12a9e810c"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "13"
+            },
+            "id": "389820f8-11ae-42fe-a76b-9117d4f9ff7f"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "913fd498-3bf0-4ab0-902b-01db71d275f3"
+          }
+        ],
+        "false": []
+      },
+      "id": "dc81133c-0e18-476d-9c70-c6127965f927"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "property",
+            "target": "0",
+            "property": "frame"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0",
+              "frame": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "de546357-869b-47e8-a8df-09fe90478540"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "13"
+            },
+            "id": "73cb8737-30ad-4557-a9f6-f97cc3b62f92"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "1fce1d68-e270-4300-963a-1694dba14424"
+          }
+        ],
+        "false": []
+      },
+      "id": "c7e34764-3d57-4519-a5c0-fabe2b1fb1c2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "property",
+            "target": "0",
+            "property": "frame"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0",
+              "frame": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "291a47fc-6323-49d8-b2e3-e65e90a586a9"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "13"
+            },
+            "id": "d228cb96-e815-42cd-9097-54a0a8e4c022"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "88a8d432-25af-4a83-9904-8f4bda89215d"
+          }
+        ],
+        "false": []
+      },
+      "id": "27135338-6a07-4eac-9cf9-092181146a40"
+    }
+  ]
+}

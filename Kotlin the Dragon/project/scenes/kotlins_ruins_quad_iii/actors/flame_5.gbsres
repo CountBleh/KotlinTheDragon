@@ -1,0 +1,36 @@
+{
+  "_resourceType": "actor",
+  "id": "b2190c31-8a56-439e-bcd9-ef52fa1ba17a",
+  "name": "Flame 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "553b40b2-92dd-497d-8dd0-056a97bfd7cd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_56",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ddc00058-dafb-47b7-a9cd-ce92f9630614",
+        "$actor[0]$": "3d642a9c-b3ad-43d6-aed7-2e6cd2b38aaa"
+      },
+      "id": "c0d5feaf-f272-427d-bac6-6a3995eebf4c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 24,
+  "_index": 11
+}

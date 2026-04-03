@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "4f19dcf0-e038-4951-9903-5f16c760d22f",
   "_index": 5,
-  "name": "Scene 6",
+  "name": "Kotlin's Ruins Quad IV",
   "backgroundId": "e006d1b5-3e09-4d8b-9b51-1b9847dc2afa",
   "tilesetId": "",
   "width": 32,
@@ -20,7 +20,7 @@
       "id": "d02e7bd5-98ab-4377-a420-48a973ee578e",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -158,6 +158,17 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "47dc31be-6880-4a94-8405-023e658aa07a",
+        "frame": {
+          "type": "variable",
+          "value": "13"
+        }
+      },
+      "id": "f09fc97c-f795-4dfd-8f58-af373f518f54"
     }
   ],
   "playerHit1Script": [],

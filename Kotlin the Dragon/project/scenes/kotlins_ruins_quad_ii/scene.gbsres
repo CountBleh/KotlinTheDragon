@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00400+",
+  "collisions": "002+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!00f+0f!008+0f!006+0f!002+0f3+00a+0f!008+0f!006+0f3+003+0f2+008+0f!008+0f!00e+0f!007+0fa+00e+0f!001f+0f!001f+0f!001f+0f!007+0f9+00f+0f!007+0f!007+0f!00f+0f!007+0f!007+0f!003+0fc+008+0f!007+0f!003+0f!0013+0f!007+0f!003+0f!006+0f9+004+0f!007+0f!003+0f!006+0f!00c+0f!007+0f!003+0f!006+0f!00c+0f!007+0f!003+0f!005+0f!00b+0f3+007+0f!003+0f7+003+0f6+00c+0f!00d+0f!0011+0f!00d+0f!0011+0f!00d+0f!0011+0f!00d+0f!0011+0f!00d+0f!0011+0f!00d+0f!0011+0ff+0047+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 760,
@@ -20,7 +20,7 @@
       "id": "27f34e61-583d-445f-9074-c7b47cc97308",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -158,6 +158,17 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "390c630c-c913-47b8-b6c7-67f23a5963a0",
+        "frame": {
+          "type": "variable",
+          "value": "13"
+        }
+      },
+      "id": "cb74b4cd-9197-42a9-9139-e985e64fe14a"
     }
   ],
   "playerHit1Script": [],

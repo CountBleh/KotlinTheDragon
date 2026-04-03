@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "4f92a7d3-0216-4371-b4b1-a3d0216ffbaa",
+  "name": "07 Gold",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3b25e55e-718a-46b5-8cba-0f3ddd042767",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_43",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 7
+        }
+      },
+      "id": "0927164e-b760-4b2e-98dd-0a3e0e5554cd"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b803e3c-adb5-4106-a39c-5280fecbcb9f",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "$actor[1]$": "cf930e88-8e4f-4a90-a5a0-68cb66877957",
+        "$actor[2]$": "14b93943-8b9d-48f0-b7fe-449c6749dc7d",
+        "$actor[3]$": "1f324c19-6e23-4680-bd15-6d9bef2ae96b",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "9"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "19"
+        }
+      },
+      "id": "03ead685-08b9-4c5f-9b70-a8776b185861"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f8e57107-48c1-4ef7-9211-b4d51ef32721"
+          }
+        ],
+        "false": []
+      },
+      "id": "efd8e45b-77df-46e0-8d87-4b46da24dac4"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 14,
+  "_index": 9
+}

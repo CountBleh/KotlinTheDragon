@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "1a085244-7ce1-4136-833f-a066de9f247a",
+  "name": "11 Key",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b6929c6b-44ad-4847-9425-1a08595d47d5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_51",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 11
+        }
+      },
+      "id": "4487faab-edb6-4390-b65d-6db3b8c53af5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b803e3c-adb5-4106-a39c-5280fecbcb9f",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "$actor[1]$": "1887fa39-dbd8-4a84-aca4-595b8426c8e1",
+        "$actor[2]$": "5968d0bf-5a0e-43ba-9819-2beb5c2f0ada",
+        "$actor[3]$": "5ebe25b1-1546-4a65-ab03-1574b06e3b58",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "9"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "22"
+        }
+      },
+      "id": "8b458697-00c7-41fd-9ddb-e8bf6f25e9c4"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "22"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "970292f3-6cd2-4367-a5c1-feae4aeea863"
+          }
+        ],
+        "false": []
+      },
+      "id": "1698e8c5-a2f0-4ff6-a1ad-374a4f99f32a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 15,
+  "_index": 5
+}

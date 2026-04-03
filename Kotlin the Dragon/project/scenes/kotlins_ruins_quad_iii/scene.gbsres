@@ -20,7 +20,7 @@
       "id": "afcb50f6-dfec-454e-9ffd-499283271940",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -158,6 +158,17 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "3d642a9c-b3ad-43d6-aed7-2e6cd2b38aaa",
+        "frame": {
+          "type": "variable",
+          "value": "13"
+        }
+      },
+      "id": "a57cbfb6-3feb-4409-ba88-9ba50a8d5e45"
     }
   ],
   "playerHit1Script": [],

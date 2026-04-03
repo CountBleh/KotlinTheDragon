@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "36ffbddb-446e-4165-a12b-9bec6a084d69",
+  "name": "00 Journal",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ed43301d-dd1e-4352-9409-cd7c0fb3ee22",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_50",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "f34ff586-f384-4cff-8fe3-a65302660405"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b803e3c-adb5-4106-a39c-5280fecbcb9f",
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "$actor[1]$": "1887fa39-dbd8-4a84-aca4-595b8426c8e1",
+        "$actor[2]$": "5968d0bf-5a0e-43ba-9819-2beb5c2f0ada",
+        "$actor[3]$": "5ebe25b1-1546-4a65-ab03-1574b06e3b58",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "9"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "14"
+        }
+      },
+      "id": "f43bcfd4-6bcf-46ab-a7d6-bfad0eb5f839"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "14"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0f544686-f3ef-4d78-92e9-601ed523baf6"
+          }
+        ],
+        "false": []
+      },
+      "id": "e9a7b786-a00f-4f8b-bda3-2f498ad0e9c3"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 30,
+  "_index": 4
+}
