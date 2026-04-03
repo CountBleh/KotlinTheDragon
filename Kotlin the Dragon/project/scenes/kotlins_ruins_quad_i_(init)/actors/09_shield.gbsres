@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "7fe1e726-f3ab-4c57-9ce5-2acf4077ce51",
-  "name": "",
+  "id": "b220a830-e2da-4a6c-b5b0-11bf88fe04d3",
+  "name": "09 Shield",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ee19ffef-4327-4202-8059-c8898246c4fe",
+  "spriteSheetId": "a120e161-105c-49a6-81c5-875104832207",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -22,10 +22,10 @@
         "variable": "4",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 9
         }
       },
-      "id": "2969fe52-4f04-48d3-975e-5cb0465929dc"
+      "id": "7530860b-96b9-42fb-bfd3-86f5fc319393"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -42,21 +42,54 @@
         "$actor[1]$": "b622a7b6-54a9-48df-a3e3-91da5574fa8f",
         "$actor[2]$": "776a88bc-f9a5-4c39-b8ef-d5a95cc4b0c3",
         "$actor[3]$": "76d392ee-07e6-43f9-a340-599f41f06461",
-        "$actor[0]$": "7fe1e726-f3ab-4c57-9ce5-2acf4077ce51",
         "$variable[V0]$": {
           "type": "variable",
           "value": "9"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "6"
         }
       },
-      "id": "046a8f1a-5e13-482a-bcf0-955477320580"
+      "id": "53cff5a0-0fda-4e31-8151-eec8496847cd"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "4262a4aa-6715-450f-868d-5b7ad62d8724"
+          }
+        ],
+        "false": []
+      },
+      "id": "5bb6aa7d-cfb7-4fce-a977-bb37aeae49b7"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
-  "y": 5,
-  "_index": 3
+  "x": 9,
+  "y": 14,
+  "_index": 4
 }

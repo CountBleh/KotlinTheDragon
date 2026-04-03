@@ -8,5 +8,6 @@
   "imageWidth": 136,
   "imageHeight": 256,
   "filename": "bQuadOne2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

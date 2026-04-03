@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "a47ca420-192b-40f2-b3c2-d8bda4658aca",
-  "name": "",
+  "id": "4c5640bf-8678-403b-9954-c2cbad94cde5",
+  "name": "01 Piano",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "2dafc094-812a-4055-b36a-f951f34fe2e0",
+  "spriteSheetId": "4ec394ee-b673-448b-b9f1-3e16164a9ab1",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_5",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -22,10 +22,10 @@
         "variable": "4",
         "value": {
           "type": "number",
-          "value": 4
+          "value": 1
         }
       },
-      "id": "a6e19e20-69ed-4e17-9de7-c92437d82721"
+      "id": "5b98f41f-d07e-4769-9395-4e2ca75fdeb7"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -47,15 +47,45 @@
           "value": "9"
         }
       },
-      "id": "8a366a99-246c-4c57-baa3-cb81b97b47ce"
+      "id": "cf9debee-f1f8-4abd-8a38-24846d263097"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "167635d6-bd17-49ac-bcc3-0cd11deaa1e7"
+          }
+        ],
+        "false": []
+      },
+      "id": "09f0e0e1-445d-4566-b337-52baa421ac79"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 15,
-  "_index": 6
+  "x": 19,
+  "y": 5,
+  "_index": 3
 }

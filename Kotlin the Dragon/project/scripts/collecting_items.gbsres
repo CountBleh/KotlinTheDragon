@@ -18,6 +18,11 @@
       "id": "V2",
       "name": "Variable C",
       "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "Destruction",
+      "passByReference": true
     }
   },
   "actors": {
@@ -72,6 +77,26 @@
               "actorId": "1"
             },
             "id": "c51948c2-9aea-4cb1-9749-eb293487733e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "b30bd13b-5a65-4dfe-a594-676e70904a51"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V3",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "a4e2cdf3-8490-42b9-bf07-cbd7d6bff76b"
           }
         ],
         "false": []
@@ -109,6 +134,26 @@
               "actorId": "2"
             },
             "id": "4640f07a-9472-4f8f-af42-90ed87f9d232"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "8dd4a1f0-a64e-4dc6-9451-c7125cc3ba54"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V3",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "dd9d8f22-d932-4b47-8b17-9c2d51b22add"
           }
         ],
         "false": []
@@ -146,6 +191,26 @@
               "actorId": "3"
             },
             "id": "942b44cb-704c-4ed2-b8e9-8d74d1441c67"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "90a3190a-dcf8-4295-a931-e8d5080d47f3"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V3",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "286c6058-6bfb-4439-83e5-6f5394aa6b35"
           }
         ],
         "false": []

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "5d365840-ea03-475e-8655-c6082310fa27",
-  "name": "",
+  "id": "da0ab14f-9db1-46e4-b8b4-26a487e906a4",
+  "name": "01 Piano",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "4ec394ee-b673-448b-b9f1-3e16164a9ab1",
@@ -23,9 +23,10 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
-      "id": "a70640de-0188-4f5d-8f2f-6c9b3e05d806"
+      "id": "8f268b81-e1dc-43e8-a0d9-510c53265bf3"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -42,21 +43,55 @@
         "$actor[1]$": "b622a7b6-54a9-48df-a3e3-91da5574fa8f",
         "$actor[2]$": "776a88bc-f9a5-4c39-b8ef-d5a95cc4b0c3",
         "$actor[3]$": "76d392ee-07e6-43f9-a340-599f41f06461",
-        "$actor[0]$": "$self$",
         "$variable[V0]$": {
           "type": "variable",
           "value": "9"
+        },
+        "__collapse": false,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "5"
         }
       },
-      "id": "76881fb3-a3b4-4a9a-8842-dd35cfabc324"
+      "id": "95743586-4df0-4bbf-8c5c-00d819d02922"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f987f2ce-0374-4209-9b83-36a608889b28"
+          }
+        ],
+        "false": []
+      },
+      "id": "51411a10-7460-454f-bb97-8c1c31540606"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 24,
-  "y": 19,
-  "_index": 7
+  "x": 19,
+  "y": 5,
+  "_index": 5
 }

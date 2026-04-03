@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "19f70fb2-2e3b-4595-bd4f-0a42b8ada2a4",
-  "name": "",
+  "id": "a0e02e8d-0f51-48a5-ac30-53f4a428f2a1",
+  "name": "05 Chest",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "6ac708c3-3360-49f9-8ccb-eb688a7a9615",
+  "spriteSheetId": "bcafe23b-225b-4c68-b408-ada7b76764e4",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_6",
+  "symbol": "actor_20",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -22,10 +22,10 @@
         "variable": "4",
         "value": {
           "type": "number",
-          "value": 3
+          "value": 5
         }
       },
-      "id": "8e618db6-5cfd-481b-b6fc-a2a8a2cbf73f"
+      "id": "581c49ab-6dd7-4b85-9a26-9f9679b8f0bf"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -45,17 +45,51 @@
         "$variable[V0]$": {
           "type": "variable",
           "value": "9"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "7"
         }
       },
-      "id": "bf0702f9-d679-4c56-ae7b-8edb7c6a030b"
+      "id": "3a134e16-2a2c-4014-9bc2-b8eb24eaa951"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0827f817-83f8-4841-9b4c-8c770f794534"
+          }
+        ],
+        "false": []
+      },
+      "id": "f91ba97c-e5e9-456d-8888-b655b8cb122c"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
+  "x": 27,
   "y": 28,
   "_index": 5
 }

@@ -17,7 +17,7 @@
   "y": 152,
   "script": [
     {
-      "id": "dfbaa0d0-3bdc-4146-82bb-83aac4e03cdb",
+      "id": "afcb50f6-dfec-454e-9ffd-499283271940",
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false
@@ -25,43 +25,136 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_IF",
             "args": {
-              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
-              "$actor[0]$": "f0b9fb28-c294-4d06-af66-9a497fbc04e0",
-              "__collapse": false,
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "9"
-              }
-            },
-            "id": "f7c63432-5bf8-4cc4-ad42-b662e8a30633"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "1"
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "true"
+                }
               },
-              "$actor[0]$": "52ad286a-30af-44cf-bedf-575c7378c8c5",
+              "__collapseElse": false,
               "__collapse": false
             },
-            "id": "870ec917-76d6-43b2-beb8-765b3297141d"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+                    "$actor[0]$": "f0b9fb28-c294-4d06-af66-9a497fbc04e0",
+                    "__collapse": false,
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "9"
+                    }
+                  },
+                  "id": "70b6ec8c-e6c9-42f2-9a5e-2e76367473e9"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "f0b9fb28-c294-4d06-af66-9a497fbc04e0"
+                  },
+                  "id": "56df6f8d-effa-4c6e-914e-bf9b499c2239"
+                }
+              ]
+            },
+            "id": "d43c2aa5-05c8-4e2a-8581-23731bc74f81"
           },
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_IF",
             "args": {
-              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "2"
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "11"
+                },
+                "valueB": {
+                  "type": "true"
+                }
               },
-              "$actor[0]$": "13bb2a05-180e-4fb9-8b1f-ae45bc39096b",
+              "__collapseElse": false,
               "__collapse": false
             },
-            "id": "80251e74-99da-4e7a-9c98-2d6561a73f5c"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "1"
+                    },
+                    "$actor[0]$": "52ad286a-30af-44cf-bedf-575c7378c8c5",
+                    "__collapse": false
+                  },
+                  "id": "7adf20d6-bced-4ec7-a276-115c2db757dd"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "52ad286a-30af-44cf-bedf-575c7378c8c5"
+                  },
+                  "id": "7ad6d557-a57e-43bc-a1d1-f7b6adfb9114"
+                }
+              ]
+            },
+            "id": "7b6fd4ab-4e47-471a-aa33-8499d0dac92c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "2"
+                    },
+                    "$actor[0]$": "13bb2a05-180e-4fb9-8b1f-ae45bc39096b",
+                    "__collapse": false
+                  },
+                  "id": "c46b65a3-f2b0-4802-a0d2-859705e8bc7d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "13bb2a05-180e-4fb9-8b1f-ae45bc39096b"
+                  },
+                  "id": "5224d539-c671-4568-9938-310549c804f0"
+                }
+              ]
+            },
+            "id": "a178dff0-04f9-411e-a808-177f7d8b2e72"
           }
         ]
       }

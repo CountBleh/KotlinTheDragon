@@ -28,18 +28,18 @@
     },
     {
       "id": "5",
-      "name": "Overworld 1",
-      "symbol": "var_overworld_1"
+      "name": "01 Piano Destroyed ",
+      "symbol": "var_01_piano_destroyed_"
     },
     {
       "id": "6",
-      "name": "Overworld 2",
-      "symbol": "var_overworld_2"
+      "name": "09 Shield Destroyed",
+      "symbol": "var_09_shield_destroyed"
     },
     {
       "id": "7",
-      "name": "Overworld 3",
-      "symbol": "var_overworld_3"
+      "name": "05 Chest Destroyed",
+      "symbol": "var_05_chest_destroyed"
     },
     {
       "id": "8",
@@ -49,7 +49,22 @@
     {
       "id": "9",
       "name": "Item A Refined",
-      "symbol": "var_item_a_refined"
+      "symbol": "var_item_a_refined_0"
+    },
+    {
+      "id": "10",
+      "name": "Symbol A Destroyed",
+      "symbol": "var_symbol_a_destroyed"
+    },
+    {
+      "id": "11",
+      "name": "Symbol B Destroyed",
+      "symbol": "var_symbol_b_destroyed"
+    },
+    {
+      "id": "12",
+      "name": "Symbol C Destroyed ",
+      "symbol": "var_symbol_c_destroyed_"
     }
   ]
 }
