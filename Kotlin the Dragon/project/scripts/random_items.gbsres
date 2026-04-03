@@ -44,7 +44,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": "0",
-        "maxValue": 4,
+        "maxValue": 11,
         "clamp": false,
         "__collapse": false
       },
@@ -59,7 +59,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": "0",
-        "maxValue": 4,
+        "maxValue": 11,
         "clamp": false,
         "__collapse": false
       },
@@ -92,7 +92,7 @@
               "vectorY": "V0",
               "value": "0",
               "minValue": "0",
-              "maxValue": 4,
+              "maxValue": 11,
               "clamp": false,
               "__collapse": false
             },
@@ -111,7 +111,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": "0",
-        "maxValue": 4,
+        "maxValue": 11,
         "clamp": false,
         "__collapse": false
       },
@@ -193,7 +193,7 @@
                           "vectorY": "V0",
                           "value": "0",
                           "minValue": "0",
-                          "maxValue": 4,
+                          "maxValue": 11,
                           "clamp": false,
                           "__collapse": false
                         },
@@ -214,7 +214,7 @@
                     "vectorY": "V0",
                     "value": "0",
                     "minValue": "0",
-                    "maxValue": 4,
+                    "maxValue": 11,
                     "clamp": false,
                     "__collapse": false
                   },

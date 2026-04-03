@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "ff4766c8-eded-4711-afe4-115810a95ed8",
+  "_index": 2,
+  "name": "Kotlin's Ruins Quad II",
+  "backgroundId": "05dd5b38-0cd6-400e-b44a-536b91dd675a",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00400+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 760,
+  "y": 416,
+  "script": [
+    {
+      "id": "44ffb84f-6a59-42dc-b0bc-c8faafe6b7db",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+              "$actor[0]$": "cf930e88-8e4f-4a90-a5a0-68cb66877957",
+              "__collapse": false,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "9"
+              }
+            },
+            "id": "20e652fd-6072-4e81-a328-fc469531e0d2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "1"
+              },
+              "$actor[0]$": "14b93943-8b9d-48f0-b7fe-449c6749dc7d",
+              "__collapse": false
+            },
+            "id": "a29c4fbc-5726-489a-a8f1-2d6645975dbd"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f58c59ac-8f13-4bde-9b6b-477242acefab",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "2"
+              },
+              "$actor[0]$": "1f324c19-6e23-4680-bd15-6d9bef2ae96b",
+              "__collapse": false
+            },
+            "id": "3652d3db-1057-40f0-b59f-b81b5c5fe55d"
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

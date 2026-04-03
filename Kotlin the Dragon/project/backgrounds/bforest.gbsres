@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2157e686-34bc-4b4a-9e17-00c890580bf6",
+  "name": "bForest",
+  "symbol": "bg_bforest",
+  "width": 77,
+  "height": 64,
+  "imageWidth": 616,
+  "imageHeight": 512,
+  "filename": "bForest.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e006d1b5-3e09-4d8b-9b51-1b9847dc2afa",
+  "name": "bQuadFour",
+  "symbol": "bg_bquadfour",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "bQuadFour.png",
+  "tileColors": ""
+}

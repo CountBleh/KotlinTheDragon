@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "924c658d-02ec-4a1e-b85d-39c5ca12b3cc",
+  "name": "bQuadOne",
+  "symbol": "bg_bquadone",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "bQuadOne.png",
+  "tileColors": ""
+}
