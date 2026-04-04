@@ -1,0 +1,79 @@
+{
+  "_resourceType": "actor",
+  "id": "cf899a68-65c7-498c-b178-231faaf513fe",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e2b12b23-c842-4040-9a7a-7f0ef33046a6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_67",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "We're volunteers\nfrom the ",
+          "Dragon \nConservation Corps",
+          "who came here to\nhelp Kotlin.",
+          "Thank you so much\nfor helping us!",
+          "Take some water,\nplease."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9cf18e49-12b2-444a-9d73-0b9b70eb82c9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "b2c0e8d5-fb29-4bca-9b66-6149aa0e3554"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "47dc31be-6880-4a94-8405-023e658aa07a",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "5f071870-99ac-402b-b09a-3eedec532dd0"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 23,
+  "_index": 15
+}

@@ -3,7 +3,7 @@
   "id": "a1957bfc-4d37-44e3-8a19-13d172b1e687",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "ab92335f-8854-49c2-b648-9efa5fb79399",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -58,6 +58,13 @@
       "id": "2b1b19b3-f3c3-4fec-bfb2-a266560b07fa"
     },
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "7bce2354-f96f-45b3-add7-f190bc53a834"
+      },
+      "id": "3d3ef110-9808-4337-8b96-ece867fad3bc"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "5",
@@ -96,7 +103,8 @@
         "variable": "10",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "6eeb61a6-0a46-4afa-9581-3e37475413c4"
     },
@@ -106,7 +114,8 @@
         "variable": "11",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "3ff6a621-5222-410f-89d8-c3619702adaa"
     },
@@ -116,7 +125,8 @@
         "variable": "12",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "5595acf6-de2b-4581-b9f0-e8584e0c1935"
     },
@@ -127,9 +137,52 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "65c31c47-6a8a-4fd8-a5aa-561a5301bfff"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "26d5edf3-0e65-44d6-929e-ee1fb0e198d3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "H-hi there! Thanks\nfor coming over.\nMy name is Kotlin!",
+          "I'm considered a \nyoung dragon. I'm\ntechnically an",
+          "Ice Dragon! Oh,\nbut that's not why\nyou're here, is",
+          "it? The kind old\nlady sent you to\nhelp me gather up",
+          "my hoard! Some \nmean people \nattacked me and ",
+          "scattered my stuff\neverywhere... Oh,\nbut I don't think",
+          "they MEANT to \ncause trouble. I\nthink they were",
+          "just doing what \nthey were told to.\nAnyways...",
+          "Let me give you a\nsmall list of my\nstuff to find."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "67a645b2-7bdb-4c6a-a3bb-ff54fbb19275"
     }
   ],
   "playerHit1Script": [],

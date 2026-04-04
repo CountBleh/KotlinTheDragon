@@ -144,6 +144,23 @@
             "id": "d228cb96-e815-42cd-9097-54a0a8e4c022"
           },
           {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b250c340-a058-47fa-a2c5-cc5e92c2b94a",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "351943e9-ff01-40f1-94d2-19faf0c43033"
+          },
+          {
             "command": "EVENT_STOP",
             "args": {},
             "id": "88a8d432-25af-4a83-9904-8f4bda89215d"

@@ -52,6 +52,13 @@
         }
       },
       "id": "3a134e16-2a2c-4014-9bc2-b8eb24eaa951"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a88b0604-918e-40d7-bf9f-4395fd436394"
+      },
+      "id": "e0c68803-a19c-4b26-87dd-0263fb3ba9ae"
     }
   ],
   "startScript": [
@@ -68,7 +75,8 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

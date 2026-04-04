@@ -1,0 +1,74 @@
+{
+  "_resourceType": "scene",
+  "id": "bf6d306e-2eb9-4845-a95a-93a7e5ed7deb",
+  "_index": 7,
+  "name": "Cliffhanger",
+  "backgroundId": "cd0a3ab2-dd7f-45b7-81cd-e5f176ff4985",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 1066.0064849853516,
+  "y": 324.0032424926758,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ba1aea13-5c9c-4193-8058-b885b88857aa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Some of the \npoachers came back\nand took Kotlin!",
+          "Not only that, but\nthey lit more \nfires on the way!",
+          "Can you help us\nput out the fires\nand save Kotlin?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0bedb92d-9aca-497d-a29d-6a76902f6f94"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8e3f3fd3-4cd9-4abd-973c-a38f2df588e9",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9bcda94c-8089-4e75-8db4-d0fde5ad7c71"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

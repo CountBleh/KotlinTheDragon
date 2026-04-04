@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d3535ae6-78b3-459b-b477-2916e7899b3c",
+  "name": "bBlackedOut",
+  "symbol": "bg_bblackedout",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bBlackedOut.png",
+  "tileColors": ""
+}

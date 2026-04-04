@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "a344bf7f-b30b-4ab1-a9b1-5edbaefa1a75",
+  "id": "5c90a5a3-5f30-4ad7-99ab-63f299204118",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c5ff60fa-9cdb-4709-86f2-b004417bb2da",
+  "spriteSheetId": "0d4b8cca-e5e4-4831-8777-88f9898ab407",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,15 +14,18 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_65",
+  "symbol": "actor_66",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Poor Kotlin. Some\ndragon poachers",
-          "attacked his home\nand lit fires all",
-          "over the place!"
+          "I feel bad for\nKotlin. He's one",
+          "of only a handful\nof dragons left,",
+          "so his hoard is \nsuper important to",
+          "him. I'm sure \nyou've got your",
+          "own treasures that\nare meaningful to",
+          "you."
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,7 +44,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d44b5203-9b5b-4efc-8baf-3dc9318dc772"
+      "id": "9c03d1b0-869e-4e99-ae49-c9777f3c14ab"
     }
   ],
   "startScript": [],
@@ -49,7 +52,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 30,
-  "y": 20,
+  "x": 14,
+  "y": 9,
   "_index": 12
 }

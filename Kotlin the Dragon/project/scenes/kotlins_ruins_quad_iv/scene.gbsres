@@ -169,6 +169,17 @@
         }
       },
       "id": "f09fc97c-f795-4dfd-8f58-af373f518f54"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "cf899a68-65c7-498c-b178-231faaf513fe",
+        "frame": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "48c4b668-45fd-42c2-87b8-05167e98f49e"
     }
   ],
   "playerHit1Script": [],

@@ -52,6 +52,13 @@
         }
       },
       "id": "cf9debee-f1f8-4abd-8a38-24846d263097"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a88b0604-918e-40d7-bf9f-4395fd436394"
+      },
+      "id": "f46daa18-03cc-474f-8942-076f51e722dd"
     }
   ],
   "startScript": [

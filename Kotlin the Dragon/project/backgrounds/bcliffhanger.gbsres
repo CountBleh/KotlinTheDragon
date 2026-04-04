@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cd0a3ab2-dd7f-45b7-81cd-e5f176ff4985",
+  "name": "bCliffhanger",
+  "symbol": "bg_bcliffhanger",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bCliffhanger.png",
+  "tileColors": ""
+}
