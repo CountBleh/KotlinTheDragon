@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "ba1edafe-425f-492c-9909-9682d9573132",
+  "name": "overworld",
+  "symbol": "song_overworld",
+  "filename": "overworld.uge",
+  "settings": {},
+  "type": "uge"
+}

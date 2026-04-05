@@ -183,6 +183,33 @@
         "__collapse": true
       },
       "id": "67a645b2-7bdb-4c6a-a3bb-ff54fbb19275"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Press the A Button\non mobile or the Z\nButton on PC to\n",
+          "pick up items and \ntalk to NPCs. ",
+          "- Don't touch fire\n- Collect the items\n- Have fun\n"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c0619e10-5d69-4694-a99f-fd854df6b479"
     }
   ],
   "playerHit1Script": [],
