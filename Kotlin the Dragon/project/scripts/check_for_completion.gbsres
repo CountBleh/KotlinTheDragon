@@ -59,6 +59,11 @@
                   "children": {
                     "true": [
                       {
+                        "command": "EVENT_MUSIC_STOP",
+                        "args": {},
+                        "id": "1da95120-c298-43bd-8641-b98bf9091c60"
+                      },
+                      {
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
@@ -79,7 +84,8 @@
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "closeDelayFrames": 30,
+                          "__collapse": false
                         },
                         "id": "a0260719-475e-41fa-94e5-7878c79fc5d8"
                       },

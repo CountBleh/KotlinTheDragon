@@ -165,31 +165,11 @@
       }
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "text": [
-          "$09$",
-          "$01$",
-          "$02$"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "musicId": "e8f9eee3-c053-430a-a2c2-5522dc1f097b"
       },
-      "id": "c8861c44-7e9d-4d67-8ba3-f57e1f75a599"
+      "id": "43aceede-0ab9-4abf-9a23-83d9d0b8d326"
     }
   ],
   "playerHit1Script": [],
