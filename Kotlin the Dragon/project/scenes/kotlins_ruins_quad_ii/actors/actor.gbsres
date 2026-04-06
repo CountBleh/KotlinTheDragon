@@ -20,9 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Poor dragons. The\ndrastic changes in\nthe weather lately",
-          "have made their \nhome harder and \nharder to take ",
-          "care of, and the\nthunder tonight\nscared them a lot."
+          "Poor dragons. The\ndrastic changes in\nthe weather ",
+          "lately have made \ntheir home harder \nand harder to ",
+          "take care of, and \nthe thunder \ntonight scared ",
+          "them a lot."
         ],
         "__section": "text",
         "avatarId": "",
