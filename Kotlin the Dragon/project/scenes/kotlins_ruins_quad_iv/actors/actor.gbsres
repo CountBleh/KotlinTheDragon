@@ -21,9 +21,9 @@
       "args": {
         "text": [
           "We're volunteers\nfrom the ",
-          "Dragon \nConservation Corps",
-          "who came here to\nhelp Kotlin.",
-          "Thank you so much\nfor helping us!",
+          "Dragon \nConservation Corps\nwho came here to",
+          "make sure Kotlin\nand Xamarin were\nsafe because of ",
+          "the weather.\nThank you so much\nfor helping us!",
           "Take some water,\nplease."
         ],
         "__section": "text",

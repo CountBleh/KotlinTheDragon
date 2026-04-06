@@ -34,9 +34,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Some of the \npoachers came back\nand took Kotlin!",
-          "Not only that, but\nthey lit more \nfires on the way!",
-          "Can you help us\nput out the fires\nand save Kotlin?"
+          "Kotlin went to\nfind his brother,\nbut some lightning",
+          "struck the forest\nand caused more\nfires! Kotlin ",
+          "can't fly yet, and\nhe needs our help!\nCan you help us?"
         ],
         "__section": "text",
         "avatarId": "",

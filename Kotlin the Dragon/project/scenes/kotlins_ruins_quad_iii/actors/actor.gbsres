@@ -20,12 +20,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I feel bad for\nKotlin. He's one",
-          "of only a handful\nof dragons left,",
-          "so his hoard is \nsuper important to",
-          "him. I'm sure \nyou've got your",
-          "own treasures that\nare meaningful to",
-          "you."
+          "I feel bad for\nKotlin and his \nbrother. They're",
+          "some of only a \nhandful of \ndragons left,",
+          "so their hoard is \nsuper important to\nthem.",
+          "I'm sure \nyou've got your\nown treasures that",
+          "are meaningful to\nyou, don't you?"
         ],
         "__section": "text",
         "avatarId": "",

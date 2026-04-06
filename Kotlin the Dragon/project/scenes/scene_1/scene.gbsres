@@ -58,6 +58,13 @@
       "id": "2b1b19b3-f3c3-4fec-bfb2-a266560b07fa"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "38d160d6-ec58-4d62-bbd6-b17649b4c2e9"
+      },
+      "id": "a52f9390-38e2-4ba2-b88a-4864ec6373b9"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "7bce2354-f96f-45b3-add7-f190bc53a834"
@@ -158,11 +165,16 @@
           "I'm considered a \nyoung dragon. I'm\ntechnically an",
           "Ice Dragon! Oh,\nbut that's not why\nyou're here, is",
           "it? The kind old\nlady sent you to\nhelp me gather up",
-          "my hoard! Some \nmean people \nattacked me and ",
-          "scattered my stuff\neverywhere... Oh,\nbut I don't think",
-          "they MEANT to \ncause trouble. I\nthink they were",
-          "just doing what \nthey were told to.\nAnyways...",
-          "Let me give you a\nsmall list of my\nstuff to find."
+          "my hoard! You see,\nI live here with \nmy brother, and",
+          "we were looking \nthrough our \ntreasures when a",
+          "loud crack of \nthunder scared us!\nThunder scares him",
+          "even more than me,\nand he flew deeper\ninto the forest.",
+          "Unfortunately, he\nwas holding our \nbag and dropped ",
+          "our hoard all\nover the forest. \nWould you mind ",
+          "gathering some \nitems up while I \nlook for him?",
+          "I'll give you a\nsmall list of our\nstuff to find.",
+          "Oh, but be \ncareful! There's\nbeen some crazy",
+          "weather lately,\nand it's caused \nsome forest fires!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -180,7 +192,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "67a645b2-7bdb-4c6a-a3bb-ff54fbb19275"
     },

@@ -20,9 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Poor Kotlin. Some\ndragon poachers",
-          "attacked his home\nand lit fires all",
-          "over the place!"
+          "Poor dragons. The\ndrastic changes in\nthe weather lately",
+          "have made their \nhome harder and \nharder to take ",
+          "care of, and the\nthunder tonight\nscared them a lot."
         ],
         "__section": "text",
         "avatarId": "",
